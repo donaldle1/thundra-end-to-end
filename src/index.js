@@ -11,4 +11,4 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-const domain="new Domain"
+const domain="new"
