@@ -18,6 +18,8 @@ describe("Update existing blog", () => {
             email:"donald.le@iamondemand.com",
             password:"tatiana"
     }
+
+    const lahabana="This is me"
     beforeAll(async () => {
       // Get user token
       const response = await request(baseURL).post("/auth").send(authUser);
